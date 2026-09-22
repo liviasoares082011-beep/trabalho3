@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    border: 2px solid blue;
+    display: flex;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.entrar{
+    border: 2px solid green;
+    padding: 10px;
+    width: 50%;
+}
+.Usuario{
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+    margin:10px;
+}
+.Senha{
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+    margin:10px;
+}
+.Login{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}

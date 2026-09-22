@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 3px solid red;
+    height: 100vh;
+   
+}
+a{
+    border: 2px solid green;
+
+    padding: 10px;
+}
+header{
+    border: 2px solid blue;
+    display: flex;
+    height: 200px;
+   
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+}
